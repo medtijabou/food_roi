@@ -1,0 +1,67 @@
+
+/* Media Queries */
+@media (min-width: 1025px) {
+  header {
+    padding: 25px 0;
+  }
+
+  .menu-card {
+    margin: auto;
+    width: 70%;
+  }
+
+  .log-site {
+    display: flex;
+    justify-content: center;
+  }
+
+  .food-card img {
+    height: 380px;
+    z-index: 1;
+  }
+
+  .title-menu {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      position: relative;
+      font-size: 28px;
+    }
+  }
+
+  .logo-love {
+    i,
+    .logo-love-sytle {
+      left: 640px;
+      top: 22px;
+    }
+
+    i.logo-love-sytle,
+    .logo-love-sytle.logo-love-sytle {
+      left: 640px;
+      top: 13px;
+    }
+  }
+
+  .menu__entrees {
+    padding: 0 10%;
+  }
+
+  footer {
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+
+    h4 {
+      width: 15%;
+      padding-top: 0;
+    }
+
+    ul {
+      display: flex;
+      column-gap: 20px;
+      justify-content: end;
+    }
+  }
+}

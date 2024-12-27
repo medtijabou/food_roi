@@ -1,0 +1,21 @@
+/* Keyframes */
+@keyframes menu-appear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+&:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+&:hover .menu__select {
+  margin: -0.75rem -1.1rem -0.75rem 1rem;
+}
+
+&:hover i {
+  transform: rotate(360deg);
+}

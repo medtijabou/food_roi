@@ -1,5 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
+/* Reset léger */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  font-family: $font-family;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
