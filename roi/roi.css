@@ -286,12 +286,10 @@ position: relative;
   }
   .logo-love i.logo-love-sytle, .logo-love-sytle.logo-love-sytle{
     left: 680Px;
-    top: 13px;
+    top: 14px;
    
   }
-  .logo-love i.logo-love-sytle{
-    top:14px;
-  }
+ 
   .menu__entrees{
     padding: 0px 10% 0px 10%;
   }
